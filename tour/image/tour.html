@@ -6,6 +6,7 @@
     <title>国内旅游</title>
 </head>
 <style>
+
     html{
         background: #f5f5f5;
     }
@@ -24,7 +25,13 @@
     }
     .qui-hearder{
         background-color:#2bab79;
-        height: 60px;
+        height: 50px;
+    }
+    .aside{
+        width: 350px;
+        float: left;
+        height:500px
+        height： 60px;
     }
   
     .aside{
@@ -65,6 +72,41 @@
         line-height: 40px;
         margin-left: 55px;
     }
+    .day1,.day2{
+        position: absolute;
+        right: 660px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #2bab79;
+        line-height: 35px;
+        color: white;
+        text-align: center;
+    }
+    .day1{
+        top: 80px;
+    }
+    .day2{
+        top: 480px;
+    }
+    .em{
+        font-style: normal;
+        font-weight: bold;
+    }
+    .span{
+        margin-left: 20px;
+    }
+    .qui-aside{
+        position: absolute;
+        top: 25px;
+        left:410px;
+        height: 800px;
+        width: 200px;
+        background-color:#2d3741 ;
+    }
+    .ul{
+        list-style: none;
+    }
 </style>
 <body>
     <header class="qui-hearder" >
@@ -80,17 +122,47 @@
             </p>
             <h2 class="title">我的旅游行程</h2>   
         </div>
-        
+        <p class="day1">
+            14天
+        </p>
+        <div>
+            <em class="em">
+                城市
+            </em>
+            <span class="span">
+                昆明 - 香格里拉 - 西藏
+            </span>
+        </div>
         <div class="bottom2">
             <p class="face">
                 <img src="touxiang.jpg" alt="" width="38" height="38" class="pic" >
             </p>
             <h2 class="title">我的旅游行程</h2>   
         </div>
-        <p></p>
+        
         <img src="华东.jpg" alt="11" width="635" >
+        <p class="day2">
+            15天
+        </p>
+        <div>
+            <em class="em">
+                城市
+            </em>
+            <span class="span">
+                北京 - 常州 - 苏州
+            </span>
+        </div>
     </section>
-
+    <aside class="qui-aside">
+        <ul class="ul">
+            <li class="li"><a href="">首页</a></li>
+            <li><a href="">目的地</a></li>
+            <li><a href="">酒店</a></li>
+            <li><a href="">机票</a></li>
+            <li><a href="">时间</a></li>
+            <li><a href="">点评</a></li>
+        </ul>
+    </aside>
 
 </body>
 </html>
