@@ -1,0 +1,130 @@
+html{
+    background: #f5f5f5;
+}
+body{
+    background-color:white;
+    width: 100%;
+    max-width: 640px;
+    margin:0 auto;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+.qui-hearder{
+    background-color:#2bab79;
+    height: 50px;
+}
+.aside{
+    width: 350px;
+    float: left;
+    height:500px
+    height： 60px;
+}
+
+.aside{
+    width: 350px;
+    float: left;
+    height:500px
+    
+}
+.pcroutelist{
+ margin-left: 5PX;   
+}
+.pic{
+    border-radius: 50%;
+}
+.bottom{
+    position: absolute;
+    top: 750px;
+    left: 640px;  
+}
+.bottom2{
+    position: absolute;
+    top: 380px;
+    left: 640px; 
+}
+.face{
+    float: left;
+    border:1px solid white;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+}
+.title{
+    position: absolute;
+    color: white;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 40px;
+    margin-left: 55px;
+}
+.day1,.day2{
+    position: absolute;
+    right: 660px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2bab79;
+    line-height: 35px;
+    color: white;
+    text-align: center;
+}
+.day1{
+    top: 80px;
+}
+.day2{
+    top: 480px;
+}
+.em{
+    font-style: normal;
+    font-weight: bold;
+}
+.span{
+    margin-left: 20px;
+}
+.qui-aside{
+    position: absolute;
+    top: 25px;
+    left:410px;
+    height: 880px;
+    width: 200px;
+    background-color:#2d3741 ;
+}
+.ul{
+    list-style: none;
+}
+
+.nav-aside{
+    /* border: 1px solid red; */
+    padding: 80px 10px ;
+}
+
+.nav-aside a{
+    font-size: 16px;
+    color: #ced1d5;
+    line-height: 44px;
+    padding-left: 15px;
+    text-decoration: none;
+    display: block;
+}
+.nav-aside a:hover{
+    color: white;
+    background-color: #2bab79;
+}
+.qui-footer{
+    border: 1px solid red;
+    text-align: center;
+    font-size: 10px;
+    line-height: 20px;
+    
+}
+.qui-footer a{
+    text-decoration: none;
+    color: #444;
+    margin-left: 60px;
+}
